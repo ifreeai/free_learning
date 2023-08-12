@@ -1,8 +1,8 @@
-//ѭ������ѧϰ2023��8��8��two
+//循环语句的学习2023年8月8日two
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 
-//whileѭ����䣺
+//while循环语句：
 //int main()
 //{
 //	int i = 0;
@@ -14,7 +14,7 @@
 //}	
 
 
-//forѭ����䣺
+//for循环语句：
 //int main()
 //{
 //	int i = 0;
@@ -56,8 +56,8 @@
 //}
 
 
-//������ 
-//����ѭ�����ٴΣ����ٺ٣�
+//笔试题 
+//求其循环多少次？（嘿嘿）
 //int main()
 //{
 //	int i = 0;
