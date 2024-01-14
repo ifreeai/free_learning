@@ -1,4 +1,4 @@
-//Êı¾İµÄ´æ´¢-learning
+//æ•°æ®çš„å­˜å‚¨-learning
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 #include <windows.h>
@@ -9,10 +9,10 @@
 //	for (i = 9; i >= 0; i--)
 //	{
 //		printf("%u\n", i);
-//		Sleep(100);//µ¥Î»ºÁÃë
+//		Sleep(100);//å•ä½æ¯«ç§’
 //	}
 //	return 0;
-//}//³ÌĞò»áÏİÈëËÀÑ­»·
+//}//ç¨‹åºä¼šé™·å…¥æ­»å¾ªç¯
 
 //int main()
 //{
@@ -40,10 +40,10 @@ int main()
 {
 	int n = 9;
 	float* pFloat = (float*)&n;
-	printf("nµÄÖµÎª£º%d\n", n);
-	printf("pFloatµÄÖµÎª£º%lf\n", pFloat);
+	printf("nçš„å€¼ä¸ºï¼š%d\n", n);
+	printf("pFloatçš„å€¼ä¸ºï¼š%lf\n", pFloat);
 	*pFloat = 9.0;
-	printf("numµÄÖµÎª£º%d\n", n);
-	printf("pFloatµÄÖµÎª£º%d\n", *pFloat);
+	printf("numçš„å€¼ä¸ºï¼š%d\n", n);
+	printf("pFloatçš„å€¼ä¸ºï¼š%d\n", *pFloat);
 	return 0;
 }
