@@ -1,17 +1,17 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 
-//1.顺序结构
-//2.选择结构
-//3.循环结构
+//1.椤哄簭缁撴瀯
+//2.閫夋嫨缁撴瀯
+//3.寰幆缁撴瀯
 
 //int main()
 //{
 //	int age = 20;
 //	if (age < 18)
-//		printf("未成年\n");
+//		printf("鏈垚骞碶n");
 //	else
-//		printf("成年\n");
+//		printf("鎴愬勾\n");
 //	return 0;
 //}
 
@@ -19,30 +19,30 @@
 //{
 //	int age = 99;
 //	if (age < 18)
-//		printf("未成年\n");
+//		printf("鏈垚骞碶n");
 //	else
 //	{
 // if (age >= 18 && age < 28)
-//	printf("青年\n");
+//	printf("闈掑勾\n");
 //else if (age >= 28 && age < 50)
-//	printf("壮年\n");
+//	printf("澹勾\n");
 //else if (age >= 50 && age < 90)
-//	printf("老年\n");
+//	printf("鑰佸勾\n");
 //else if (age >= 90 && age < 100)
-//	printf("老不死\n");
+//	printf("鑰佷笉姝籠n");
 //else if (age >= 100)
-//printf("入土\n");
+//printf("鍏ュ湡\n");
 //	}
 //	/*else if (age >= 18 && age < 28)
-//		printf("青年\n");
+//		printf("闈掑勾\n");
 //	else if (age >= 28 && age < 50)
-//		printf("壮年\n");
+//		printf("澹勾\n");
 //	else if (age >= 50 && age < 90)
-//		printf("老年\n");
+//		printf("鑰佸勾\n");
 //	else if(age >= 90 && age < 100)
-//		printf("老不死\n");
+//		printf("鑰佷笉姝籠n");
 //	else if(age >= 100)
-//		printf("入土\n");
+//		printf("鍏ュ湡\n");
 //	return 0;*/
 //	return 0;
 //}
@@ -65,7 +65,7 @@
 //	int num = 4;
 //	if (5==num)
 //	{
-//		printf("呵呵\n");
+//		printf("鍛靛懙\n");
 //	}
 //
 //	return 0;
@@ -82,14 +82,14 @@
 //	case 3:
 //	case 4:
 //	case 5:
-//		printf("工作日\n");
+//		printf("宸ヤ綔鏃n");
 //		break;
 //	case 6:
 //	case 7:
-//		printf("休息日\n");
+//		printf("浼戞伅鏃n");
 //		break;
 //	default:
-//		printf("输入错误\n");
+//		printf("杈撳叆閿欒\n");
 //		break;
 //	}
 //
