@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 
-int main()//指针数组的使用
+int main()//脰赂脮毛脢媒脳茅碌脛脢鹿脫脙
 {
 	int arr1[] = {1,2,3,4,5};
 	int arr2[] = { 2,3,4,5,6 };
