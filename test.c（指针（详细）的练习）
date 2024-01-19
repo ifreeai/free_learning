@@ -82,7 +82,7 @@
 //int main()
 //{
 //	void (*p)(char*) = Print;//函数指针
-//	(*p)("hello learning");
+//	(*p)("hello learning");//写成p("hello learning")也可，*没有实际作用
 //	return 0;
 //}
 
