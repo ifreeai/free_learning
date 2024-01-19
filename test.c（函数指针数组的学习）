@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
-//¼òµ¥¼ÆËãÆ÷
+//ç®€å•è®¡ç®—å™¨
 void menu()
 {
 	printf("*********************\n");
@@ -35,26 +35,26 @@ int main()
 	int input = 0;
 	int x = 0;
 	int y = 0;
-	int(*pfArr[])(int, int) = { 0,Add,Sub,Mul,Div,Xor };//º¯ÊýÖ¸ÕëÊý×é£¨ÖØµã£©
+	int(*pfArr[])(int, int) = { 0,Add,Sub,Mul,Div,Xor };//å‡½æ•°æŒ‡é’ˆæ•°ç»„ï¼ˆé‡ç‚¹ï¼‰
 	do
 	{
 		menu();
-		printf("ÇëÑ¡Ôñ£º");
+		printf("è¯·é€‰æ‹©ï¼š");
 		scanf("%d", &input);
 		if (input >= 1 && input <= 5)
 		{
-			printf("ÇëÊäÈëÁ½¸ö²Ù×÷Êý£º");
+			printf("è¯·è¾“å…¥ä¸¤ä¸ªæ“ä½œæ•°ï¼š");
 			scanf("%d%d", &x, &y);
-			int num = pfArr[input](x, y);//º¯ÊýÖ¸ÕëÊý×éµÄÓ¦ÓÃ
+			int num = pfArr[input](x, y);//å‡½æ•°æŒ‡é’ˆæ•°ç»„çš„åº”ç”¨
 			printf("%d\n", num);
 		}
 		else if (input == 0)
 		{
-			printf("ÍË³ö");
+			printf("é€€å‡º");
 		}
 		else
 		{
-			printf("Ñ¡Ôñ´íÎó£¬ÇëÖØÐÂÑ¡Ôñ:\n");
+			printf("é€‰æ‹©é”™è¯¯ï¼Œè¯·é‡æ–°é€‰æ‹©:\n");
 		}
 	} while(input);
 	return 0;
