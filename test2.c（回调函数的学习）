@@ -1,8 +1,8 @@
-//sit£ºÅô¸çµÚ34¼¯£¨Ö¸ÕëÏê½â£©
+//sitï¼šé¹å“¥ç¬¬34é›†ï¼ˆæŒ‡é’ˆè¯¦è§£ï¼‰
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
-//»Øµ÷º¯Êı
-//void print(char* str)//print¾ÍÊÇ»Øµ÷º¯Êı
+//å›è°ƒå‡½æ•°
+//void print(char* str)//printå°±æ˜¯å›è°ƒå‡½æ•°
 //{
 //	printf("hello:%s", str);
 //}
