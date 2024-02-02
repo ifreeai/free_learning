@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
-//°¢Àï±ÊÊÔÌâ
+//é˜¿é‡Œç¬”è¯•é¢˜
 int main()
 {
 	char* a[] = { "work","at","alibaba" };
@@ -9,4 +9,4 @@ int main()
 	printf("%s\n", *pa);
 	return 0;
 }
-Êä³ö½á¹û£ºat
+//ç»“æœä¸ºï¼šat
