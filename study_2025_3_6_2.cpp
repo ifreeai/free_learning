@@ -1,4 +1,4 @@
-//Ë³Ğò±íµÄ»ù±¾²Ù×÷--²åÈë
+//é¡ºåºè¡¨çš„åŸºæœ¬æ“ä½œ--æ’å…¥
 #include <stdio.h>
 #include <stdlib.h>
 #define MaxSize 20
@@ -14,30 +14,30 @@ void InitList(SqList *s)
 	s->length = 0;
 }
 
-// ²åÈëÔªËØµ½Ë³Ğò±í
+// æ’å…¥å…ƒç´ åˆ°é¡ºåºè¡¨
 bool ListInsert(SqList* s, int i, int e) {
-    // ¼ì²é²åÈëÎ»ÖÃÊÇ·ñºÏ·¨
+    // æ£€æŸ¥æ’å…¥ä½ç½®æ˜¯å¦åˆæ³•
     if (i < 1 || i > s->length + 1) {
-        printf("²åÈëÎ»ÖÃ²»ºÏ·¨£¡\n");
+        printf("æ’å…¥ä½ç½®ä¸åˆæ³•ï¼\n");
         return false;
     }
-    // ¼ì²éË³Ğò±íÊÇ·ñÒÑÂú
+    // æ£€æŸ¥é¡ºåºè¡¨æ˜¯å¦å·²æ»¡
     if (s->length >= MaxSize) {
-        printf("Ë³Ğò±íÒÑÂú£¬ÎŞ·¨²åÈë£¡\n");
+        printf("é¡ºåºè¡¨å·²æ»¡ï¼Œæ— æ³•æ’å…¥ï¼\n");
         return false;
     }
-    // ÔªËØºóÒÆ£¬Îª²åÈëÎ»ÖÃÌÚ³ö¿Õ¼ä
+    // å…ƒç´ åç§»ï¼Œä¸ºæ’å…¥ä½ç½®è…¾å‡ºç©ºé—´
     for (int j = s->length; j >= i; j--) {
         s->data[j] = s->data[j - 1];
     }
-    // ²åÈëĞÂÔªËØ
+    // æ’å…¥æ–°å…ƒç´ 
     s->data[i - 1] = e;
-    // Ë³Ğò±í³¤¶ÈÔö¼Ó
+    // é¡ºåºè¡¨é•¿åº¦å¢åŠ 
     s->length++;
     return true;
 }
 
-// ´òÓ¡Ë³Ğò±íÖĞµÄËùÓĞÔªËØ
+// æ‰“å°é¡ºåºè¡¨ä¸­çš„æ‰€æœ‰å…ƒç´ 
 void PrintList(SqList* s) {
     for (int i = 0; i < s->length; i++) {
         printf("%d ", s->data[i]);
@@ -50,10 +50,10 @@ int main()
 {
 	SqList s = {};
 	InitList(&s);
-	ListInsert(&s, 1, 10); // ÔÚÎ»ÖÃ1²åÈë10
-	ListInsert(&s, 2, 20); // ÔÚÎ»ÖÃ2²åÈë20
-	ListInsert(&s, 1, 5);  // ÔÚÎ»ÖÃ1²åÈë5
-	ListInsert(&s, 3, 15); // ÔÚÎ»ÖÃ3²åÈë15
+	ListInsert(&s, 1, 10); // åœ¨ä½ç½®1æ’å…¥10
+	ListInsert(&s, 2, 20); // åœ¨ä½ç½®2æ’å…¥20
+	ListInsert(&s, 1, 5);  // åœ¨ä½ç½®1æ’å…¥5
+	ListInsert(&s, 3, 15); // åœ¨ä½ç½®3æ’å…¥15
     ListInsert(&s, 5, 25);
     PrintList(&s);
 	return 0;
